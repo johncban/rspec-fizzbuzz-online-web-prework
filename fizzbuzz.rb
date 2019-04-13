@@ -5,6 +5,10 @@ class FizzBuzz
   def fizzbuzz(number)
     if number % 3==0 && num % 5==0
       return "FizzBuzz"
-    end 
+    elsif number % 3==0
+      return "Fizz"
+    else
+      number
+    end
   end
 end
