@@ -10,7 +10,7 @@ class FizzBuzz
     elsif num % 5==0
       puts "Buzz"
     else
-      num
+      nil
     end
   end
 end
