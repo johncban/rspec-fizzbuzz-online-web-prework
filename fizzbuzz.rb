@@ -2,5 +2,6 @@
 # See README.md for instructions on how to do this
 
 class FizzBuzz
-  
+  def fizzbuzz(num)
+  end
 end
