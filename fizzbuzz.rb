@@ -2,7 +2,7 @@
 # See README.md for instructions on how to do this
 
 class FizzBuzz
-  def self.checker(num)
+  def self.checker(number)
 
   end
 end
