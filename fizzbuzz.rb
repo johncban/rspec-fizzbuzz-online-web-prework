@@ -2,13 +2,15 @@
 # See README.md for instructions on how to do this
 
 class FizzBuzz
-  def fizzbuzz(number)
-    if number % 3==0 && num % 5==0
+  def fizzbuzz(num)
+    if num % 3==0 && num % 5==0
       return "FizzBuzz"
-    elsif number % 3==0
-      return "Fizz"
+    elsif num % 3==0
+      puts "Fizz"
+    elsif num % 5==0
+      puts "Buzz"
     else
-      number
+      num
     end
   end
 end
