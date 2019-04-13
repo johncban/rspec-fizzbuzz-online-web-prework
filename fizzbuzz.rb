@@ -2,7 +2,9 @@
 # See README.md for instructions on how to do this
 
 class FizzBuzz
-  def self.checker(number)
-    "FizzBuzz"
+  def fizzbuzz(number)
+    if number % 3==0 && num % 5==0
+      return "FizzBuzz"
+    end 
   end
 end
