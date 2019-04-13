@@ -3,6 +3,6 @@
 
 class FizzBuzz
   def self.checker(number)
-
+    "FizzBuzz"
   end
 end
